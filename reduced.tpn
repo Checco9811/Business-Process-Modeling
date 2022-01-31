@@ -1,0 +1,410 @@
+-- FSP t50 p48_p48
+-- FSP t52 p90_p90
+-- FSP t51 p49_p49
+-- FSP t53 p52_p52
+-- FSP t56 p47_p47
+-- FSP t59 xor1join_p66
+-- FSP t64 p72_p72
+-- FSP t66 p69_p69
+-- FSP t7 xorjoin3_p5
+-- FSP t8 xorjoin2_p4
+-- FSP t72 p75_p75
+-- FSP t10 p1_p1
+-- FSP t12 END_p42
+-- FSP t15 END_p70
+-- FSP t27 xorjoin_p26
+-- FSP t29 xorjoin_p29
+-- FSP t34 xorjoin_p31
+-- FSP t44 xorJoin_p44
+-- FSP t48 xorjoin_p36
+-- FST p65_p65 t58
+-- FST p68_p68 t63
+-- FST p74_p74 t70
+-- FST start_p39 t39
+-- FST p30_p30 t32
+-- FST p32_p32 t31
+-- FPP p76_p76 p40_p40
+-- FSP t40 p76_p76
+place "p54_p54" -- 0
+;
+place "p53_p53" -- 1
+;
+place "p56_p56" -- 2
+;
+place "p55_p55" -- 3
+;
+place "p62_p62" -- 4
+;
+place "p58_p58" -- 5
+;
+place "p57_p57" -- 6
+;
+place "p79_p79" -- 7
+;
+place "p78_p78" -- 8
+;
+place "eventBased1_p64" -- 9
+;
+place "eventBased2_p67" -- 10
+;
+place "p61_p61" -- 11
+;
+place "p60_p60" -- 12
+;
+place "p80_p80" -- 13
+;
+place "p81_p81" -- 14
+;
+place "p83_p83" -- 15
+;
+place "p82_p82" -- 16
+;
+place "xor_p71" -- 17
+;
+place "p87_p87" -- 18
+;
+place "eventBased3_p73" -- 19
+;
+place "p84_p84" -- 20
+;
+place "p89_p89" -- 21
+;
+place "p88_p88" -- 22
+;
+place "p2_p2" -- 23
+;
+place "xor1join_p8" -- 24
+;
+place "eventBased1_p3" -- 25
+;
+place "p6_p6" -- 26
+;
+place "p77_p77" -- 27
+;
+place "ENDISSIMO_p91" -- 28
+;
+place "START_p16" -- 29
+ init 1
+;
+place "xorsplit_p25" -- 30
+;
+place "xor1split_p24" -- 31
+;
+place "xorsplit_p27" -- 32
+;
+place "p28_p28" -- 33
+;
+place "eventbased_p34" -- 34
+;
+place "xorsplit_p33" -- 35
+;
+place "p38_p38" -- 36
+;
+place "eventbased_p35" -- 37
+;
+place "xorjoin_p37" -- 38
+;
+place "p41_p41" -- 39
+;
+place "p43_p43" -- 40
+;
+place "p45_p45" -- 41
+;
+trans "t55" -- 42
+  in
+    "p54_p54"
+    "p53_p53"
+
+  out
+    "p62_p62"
+;
+trans "t57" -- 43
+  in
+    "p78_p78"
+    "eventBased1_p64"
+
+  out
+    "eventBased2_p67"
+    "p79_p79"
+;
+trans "t61" -- 44
+  in
+    "eventBased2_p67"
+    "p80_p80"
+
+  out
+    "p53_p53"
+;
+trans "t60" -- 45
+  in
+    "eventBased2_p67"
+    "p81_p81"
+
+  out
+    "eventBased2_p67"
+    "p83_p83"
+;
+trans "t62" -- 46
+  in
+    "eventBased2_p67"
+    "p82_p82"
+
+  out
+    "xor_p71"
+;
+trans "t65" -- 47
+  in
+    "xor_p71"
+
+  out
+    "eventBased2_p67"
+    "p87_p87"
+;
+trans "t67" -- 48
+  in
+    "xor_p71"
+
+  out
+    "eventBased3_p73"
+    "p84_p84"
+;
+trans "t69" -- 49
+  in
+    "p89_p89"
+    "eventBased3_p73"
+
+  out
+    "eventBased2_p67"
+;
+trans "t68" -- 50
+  in
+    "p88_p88"
+    "eventBased3_p73"
+
+  out
+    "eventBased2_p67"
+;
+trans "t1" -- 51
+  in
+    "p2_p2"
+
+  out
+    "p55_p55"
+    "p54_p54"
+;
+trans "t2" -- 52
+  in
+    "p2_p2"
+
+  out
+    "xor1join_p8"
+;
+trans "t3" -- 53
+  in
+    "xor1join_p8"
+
+  out
+    "p56_p56"
+    "eventBased1_p3"
+;
+trans "t4" -- 54
+  in
+    "p6_p6"
+
+  out
+    "xor1join_p8"
+    "p61_p61"
+;
+trans "t5" -- 55
+  in
+    "p57_p57"
+    "eventBased1_p3"
+
+  out
+    "p6_p6"
+;
+trans "t6" -- 56
+  in
+    "p58_p58"
+    "eventBased1_p3"
+
+  out
+    "p54_p54"
+;
+trans "t9" -- 57
+  in
+    "p6_p6"
+
+  out
+    "p54_p54"
+    "p60_p60"
+;
+trans "t71" -- 58
+  in
+    "p77_p77"
+    "eventBased1_p64"
+
+  out
+    "ENDISSIMO_p91"
+;
+trans "t16" -- 59
+  in
+    "START_p16"
+
+  out
+    "p41_p41"
+    "eventBased1_p64"
+;
+trans "t23" -- 60
+  in
+    "xorsplit_p25"
+    "p87_p87"
+
+  out
+    "xor1split_p24"
+;
+trans "t22" -- 61
+  in
+    "xor1split_p24"
+
+  out
+    "p28_p28"
+    "p81_p81"
+;
+trans "t25" -- 62
+  in
+    "xorsplit_p27"
+
+  out
+    "p88_p88"
+    "xor1split_p24"
+;
+trans "t24" -- 63
+  in
+    "xor1split_p24"
+
+  out
+    "xorsplit_p25"
+    "p82_p82"
+;
+trans "t26" -- 64
+  in
+    "xorsplit_p25"
+    "p84_p84"
+
+  out
+    "xorsplit_p27"
+;
+trans "t28" -- 65
+  in
+    "xorsplit_p27"
+
+  out
+    "p89_p89"
+    "xor1split_p24"
+;
+trans "t30" -- 66
+  in
+    "p28_p28"
+    "p83_p83"
+
+  out
+    "xor1split_p24"
+;
+trans "t33" -- 67
+  in
+    "eventbased_p34"
+    "p55_p55"
+
+  out
+    "xorjoin_p37"
+;
+trans "t36" -- 68
+  in
+    "eventbased_p34"
+    "p56_p56"
+
+  out
+    "xorsplit_p33"
+;
+trans "t35" -- 69
+  in
+    "xorsplit_p33"
+
+  out
+    "xorjoin_p37"
+    "p58_p58"
+;
+trans "t38" -- 70
+  in
+    "xorsplit_p33"
+
+  out
+    "eventbased_p35"
+    "p57_p57"
+;
+trans "t37" -- 71
+  in
+    "eventbased_p35"
+    "p61_p61"
+
+  out
+    "eventbased_p34"
+;
+trans "t41" -- 72
+  in
+    "p41_p41"
+
+  out
+    "p77_p77"
+;
+trans "t43" -- 73
+  in
+    "p79_p79"
+    "p43_p43"
+
+  out
+    "xor1split_p24"
+;
+trans "t42" -- 74
+  in
+    "p41_p41"
+
+  out
+    "p78_p78"
+    "p43_p43"
+;
+trans "t45" -- 75
+  in
+    "xor1split_p24"
+
+  out
+    "p38_p38"
+    "p80_p80"
+    "p2_p2"
+    "eventbased_p34"
+;
+trans "t47" -- 76
+  in
+    "p38_p38"
+    "xorjoin_p37"
+
+  out
+    "p45_p45"
+;
+trans "t46" -- 77
+  in
+    "eventbased_p35"
+    "p60_p60"
+
+  out
+    "xorjoin_p37"
+;
+trans "t49" -- 78
+  in
+    "p45_p45"
+    "p62_p62"
+
+  out
+    "ENDISSIMO_p91"
+;
