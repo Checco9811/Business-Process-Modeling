@@ -877,10 +877,10 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     <toolspecific tool="WoPeD" version="1.0">
       <bounds>
         <position x="2" y="24"/>
-        <dimension x="1905" y="682"/>
+        <dimension x="3813" y="1802"/>
       </bounds>
-      <scale>113</scale>
-      <treeWidthRight>1585</treeWidthRight>
+      <scale>112</scale>
+      <treeWidthRight>3206</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
