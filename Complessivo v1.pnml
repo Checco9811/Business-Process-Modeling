@@ -343,11 +343,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>p83</text>
         <graphics>
-          <offset x="1360" y="2150"/>
+          <offset x="1400" y="2150"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1357" y="2106"/>
+        <position x="1397" y="2106"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -367,11 +367,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>p84</text>
         <graphics>
-          <offset x="1240" y="2130"/>
+          <offset x="1260" y="2140"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1236" y="2088"/>
+        <position x="1256" y="2098"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -454,11 +454,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>xor-split</text>
         <graphics>
-          <offset x="1090" y="1880"/>
+          <offset x="1250" y="1880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1089" y="1832"/>
+        <position x="1251" y="1832"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -478,11 +478,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>xor-split</text>
         <graphics>
-          <offset x="1200" y="1970"/>
+          <offset x="1360" y="1970"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1199" y="1922"/>
+        <position x="1361" y="1922"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -490,11 +490,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>xor-join</text>
         <graphics>
-          <offset x="1310" y="1880"/>
+          <offset x="1470" y="1880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1309" y="1832"/>
+        <position x="1471" y="1832"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -502,11 +502,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>xor-join</text>
         <graphics>
-          <offset x="1420" y="1780"/>
+          <offset x="1580" y="1780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1419" y="1732"/>
+        <position x="1581" y="1732"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -514,11 +514,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>p28</text>
         <graphics>
-          <offset x="1140" y="1780"/>
+          <offset x="1320" y="1780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1139" y="1732"/>
+        <position x="1321" y="1732"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -591,6 +591,18 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       </name>
       <graphics>
         <position x="1640" y="609"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
+    <place id="p7">
+      <name>
+        <text>xor-join</text>
+        <graphics>
+          <offset x="970" y="1960"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="970" y="1921"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -1395,6 +1407,23 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
+    <transition id="t11">
+      <name>
+        <text>t11</text>
+        <graphics>
+          <offset x="980" y="1870"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="967" y="1828"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
     <transition id="t16">
       <name>
         <text>t16</text>
@@ -1433,11 +1462,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>ricevi accettazione</text>
         <graphics>
-          <offset x="1210" y="1880"/>
+          <offset x="1370" y="1880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1209" y="1832"/>
+        <position x="1371" y="1832"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1450,11 +1479,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Invio bozze</text>
         <graphics>
-          <offset x="1070" y="1780"/>
+          <offset x="1230" y="1780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1069" y="1732"/>
+        <position x="1231" y="1732"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1467,11 +1496,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>accetta data</text>
         <graphics>
-          <offset x="1310" y="1970"/>
+          <offset x="1470" y="1970"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1309" y="1922"/>
+        <position x="1471" y="1922"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1484,11 +1513,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Proponi data incontro</text>
         <graphics>
-          <offset x="970" y="1880"/>
+          <offset x="1080" y="1880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="969" y="1832"/>
+        <position x="1076" y="1832"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1501,11 +1530,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>chiamata</text>
         <graphics>
-          <offset x="1420" y="1880"/>
+          <offset x="1580" y="1880"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1419" y="1832"/>
+        <position x="1581" y="1832"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1518,11 +1547,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>ricevi nuova data</text>
         <graphics>
-          <offset x="1090" y="1970"/>
+          <offset x="1230" y="1970"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1089" y="1922"/>
+        <position x="1251" y="1922"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1535,11 +1564,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>applica modifiche</text>
         <graphics>
-          <offset x="1530" y="1780"/>
+          <offset x="1690" y="1780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1524" y="1732"/>
+        <position x="1686" y="1732"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1552,11 +1581,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>rifiuta data</text>
         <graphics>
-          <offset x="1200" y="2050"/>
+          <offset x="1300" y="2050"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1199" y="2002"/>
+        <position x="1299" y="2002"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -1569,11 +1598,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Ricevi note</text>
         <graphics>
-          <offset x="1210" y="1780"/>
+          <offset x="1410" y="1780"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1209" y="1732"/>
+        <position x="1411" y="1732"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -2133,22 +2162,6 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
-    <arc id="a86" source="t28" target="p44">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics>
-        <position x="783" y="2019"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
     <arc id="a124" source="p67" target="t60">
       <inscription>
         <text>1</text>
@@ -2215,8 +2228,8 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         </graphics>
       </inscription>
       <graphics>
-        <position x="1545" y="1703"/>
-        <position x="779" y="1702"/>
+        <position x="1711" y="1700"/>
+        <position x="790" y="1702"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -2628,7 +2641,37 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="a13" source="p7" target="t24">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics>
+        <position x="1096" y="1942"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="a143" source="p77" target="t71">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a12" source="t11" target="p7">
       <inscription>
         <text>1</text>
         <graphics>
@@ -2900,20 +2943,6 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       </toolspecific>
     </arc>
     <arc id="a131" source="p64" target="t57">
-      <inscription>
-        <text>1</text>
-        <graphics>
-          <offset x="500.0" y="-12.0"/>
-        </graphics>
-      </inscription>
-      <graphics/>
-      <toolspecific tool="WoPeD" version="1.0">
-        <probability>1.0</probability>
-        <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
-      </toolspecific>
-    </arc>
-    <arc id="a23" source="p24" target="t24">
       <inscription>
         <text>1</text>
         <graphics>
@@ -3489,6 +3518,22 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
         <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a46" source="t28" target="p7">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="99.20483911165002"/>
+        </graphics>
+      </inscription>
+      <graphics>
+        <position x="990" y="2020"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="891.9321679475798" y="99.20483911165002"/>
       </toolspecific>
     </arc>
     <arc id="a45" source="p5" target="t7">
@@ -4083,6 +4128,20 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="a1" source="p24" target="t11">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="a2" source="p39" target="t39">
       <inscription>
         <text>1</text>
@@ -4274,7 +4333,9 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="1380" y="2020"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
@@ -4298,10 +4359,10 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
     <toolspecific tool="WoPeD" version="1.0">
       <bounds>
         <position x="2" y="24"/>
-        <dimension x="3813" y="1802"/>
+        <dimension x="1905" y="682"/>
       </bounds>
-      <scale>59</scale>
-      <treeWidthRight>3493</treeWidthRight>
+      <scale>89</scale>
+      <treeWidthRight>1872</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
