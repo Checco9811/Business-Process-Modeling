@@ -7,11 +7,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Ricezione val docente</text>
         <graphics>
-          <offset x="190" y="440"/>
+          <offset x="120" y="390"/>
         </graphics>
       </name>
       <graphics>
-        <position x="182" y="396"/>
+        <position x="158" y="404"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -19,11 +19,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Ricezione val controrel</text>
         <graphics>
-          <offset x="190" y="580"/>
+          <offset x="120" y="580"/>
         </graphics>
       </name>
       <graphics>
-        <position x="186" y="538"/>
+        <position x="153" y="542"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -31,11 +31,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>START</text>
         <graphics>
-          <offset x="0" y="510"/>
+          <offset x="50" y="510"/>
         </graphics>
       </name>
       <graphics>
-        <position x="0" y="470"/>
+        <position x="50" y="470"/>
         <dimension x="40" y="40"/>
       </graphics>
       <initialMarking>
@@ -46,11 +46,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>p4</text>
         <graphics>
-          <offset x="430" y="520"/>
+          <offset x="280" y="520"/>
         </graphics>
       </name>
       <graphics>
-        <position x="430" y="480"/>
+        <position x="280" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -58,11 +58,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>p5</text>
         <graphics>
-          <offset x="590" y="520"/>
+          <offset x="440" y="520"/>
         </graphics>
       </name>
       <graphics>
-        <position x="590" y="480"/>
+        <position x="440" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -70,11 +70,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>p6</text>
         <graphics>
-          <offset x="810" y="520"/>
+          <offset x="600" y="520"/>
         </graphics>
       </name>
       <graphics>
-        <position x="813" y="480"/>
+        <position x="602" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -82,11 +82,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>END</text>
         <graphics>
-          <offset x="1010" y="520"/>
+          <offset x="750" y="520"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1010" y="480"/>
+        <position x="746" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -94,11 +94,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Dec. collettiva voto</text>
         <graphics>
-          <offset x="680" y="520"/>
+          <offset x="490" y="460"/>
         </graphics>
       </name>
       <graphics>
-        <position x="680" y="480"/>
+        <position x="512" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -111,11 +111,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Comunica voto</text>
         <graphics>
-          <offset x="880" y="520"/>
+          <offset x="650" y="460"/>
         </graphics>
       </name>
       <graphics>
-        <position x="880" y="480"/>
+        <position x="669" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -128,11 +128,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>t1</text>
         <graphics>
-          <offset x="80" y="510"/>
+          <offset x="130" y="510"/>
         </graphics>
       </name>
       <graphics>
-        <position x="77" y="470"/>
+        <position x="127" y="470"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -145,11 +145,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>t2</text>
         <graphics>
-          <offset x="340" y="520"/>
+          <offset x="190" y="510"/>
         </graphics>
       </name>
       <graphics>
-        <position x="340" y="480"/>
+        <position x="194" y="471"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -162,11 +162,11 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
       <name>
         <text>Esamina stu e val</text>
         <graphics>
-          <offset x="500" y="520"/>
+          <offset x="320" y="460"/>
         </graphics>
       </name>
       <graphics>
-        <position x="500" y="480"/>
+        <position x="350" y="477"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -348,8 +348,8 @@ Created with Workflow PetriNet Designer Version 3.2.0 (woped.org)-->
         <position x="2" y="24"/>
         <dimension x="3813" y="1802"/>
       </bounds>
-      <scale>230</scale>
-      <treeWidthRight>3203</treeWidthRight>
+      <scale>229</scale>
+      <treeWidthRight>3286</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
